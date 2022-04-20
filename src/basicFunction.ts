@@ -10,6 +10,6 @@
  * add(1.7, 3.5) = 5.2
  * ```
  */
- export function add(firstNumber: number, secondNumber: number) {
-    return firstNumber + secondNumber;
-  }
+export function add(firstNumber: number, secondNumber: number) {
+  return firstNumber + secondNumber;
+}
