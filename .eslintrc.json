@@ -24,6 +24,8 @@
         "prefer-const":"off",
         "eol-last":"off",
         "object-curly-spacing":"off",
-        "new-cap":"off"
+        "new-cap":"off",
+        "no-tabs":"off",
+        "indent":"off"
     }
 }
