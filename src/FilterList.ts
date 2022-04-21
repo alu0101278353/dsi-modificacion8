@@ -1,4 +1,4 @@
-import { AlgorithmTemplate } from './template';
+import { AlgorithmTemplate, m } from './template';
 /**
  * Clase que filtra una lista de números
  */
@@ -14,6 +14,15 @@ export class FilterMapAddReduce extends AlgorithmTemplate {
 		let resul: number[] = [];
     this.numbersList.forEach((elemnt) => {
 			resul.push(elemnt+elemnt);
+    });
+    return resul;
+	}
+	protected filterList(): number[] {
+    let resul: number[] = [];
+    this.numbersList.forEach((elemnt) => {
+      if (m(elemnt)) {
+        resul.push(elemnt);
+      }
     });
     return resul;
 	}
